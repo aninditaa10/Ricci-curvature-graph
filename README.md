@@ -7,14 +7,13 @@ The project computes the **Forman Ricci curvature** for a directed, weighted gra
 ## **Libraries Used**
 To run this code, ensure you have the following libraries installed:  
 - [`networkx`](https://networkx.org/) – Graph creation and manipulation.  
-- [`GraphRicciCurvature`](https://pypi.org/project/GraphRicciCurvature/) – Computes Forman Ricci curvature for graph edges.  
+- [`GraphRicciCurvature`](https://pypi.org/project/GraphRicciCurvature/) – Computes Forman Ricci curvature for graph edges. The formula used in this case is for directed weighted graph.
 - [`matplotlib`](https://matplotlib.org/) – Visualizing the graph with curvature annotations.  
 
 ## **Output Graph Structure**
 - **Nodes:** Represent different points in the network.  
 - **Edges:** Directed and weighted connections between nodes.  
-- **Curvature Calculation:** Forman Ricci curvature is computed based on the connectivity of each edge, with higher values indicating tightly connected areas and negative values indicating potential bottlenecks.  
-
+- **Curvature Calculation:** Forman Ricci curvature is computed based on the connectivity of each edge, with higher values indicating tight connections and negative values indicating potential bottlenecks.  
 
 ## **How to Run**
 1. **Install Dependencies**  
@@ -27,6 +26,7 @@ To run this code, ensure you have the following libraries installed:
    ```
 3. **View the Output**  
    - The python code generates and displays a graph, where each edge is labeled with its computed curvature.  
+
 
 ## **Output**
  
